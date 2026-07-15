@@ -1,0 +1,8 @@
+print('My age is', 25,'I Have', 3500.50,'Bth.')
+print('My age is %d I Have %.2f Bth.' %(25,3500.05))
+print('My age is '+ str(25)+' I Have '+ str(3500.50)+' Bth.')
+print(' 5+4 =' ,5+4)
+print(' 5+4 = %.2f' %(5+4))
+print('My age is ',25,'. I Have $' ,3500.50, ' in my bank account.')
+print(' 5+4 = ' +str(5+4))
+print('My age is {0}. I Have ${1:.2f} in my bank account.'.format(25,3500.50))
