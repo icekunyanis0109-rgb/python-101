@@ -1,0 +1,5 @@
+column = int(input("Enter the numbers of columns? :"))
+for i in range(1, 100):
+     print(i,end="\t")
+     if i % column == 0:
+        print()
